@@ -1,3 +1,7 @@
-let givenYear = 2000;
+let givenYear = 1;
 
-givenYear % 100
+if ((givenYear % 4) === 0) {
+  return console.log(true);
+}
+
+console.log(false);
