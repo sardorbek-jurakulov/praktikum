@@ -1,12 +1,15 @@
-let a = 1;
-
-
 function numberDigitsDeterminer(givenNumber) {
-  if ((givenNumber % 100) === 0) {
+  if (givenNumber >= 100 && givenNumber < 1000) {
     return 3;
-  } else if ((givenNumber % 10) === 0) {
+  } else if (givenNumber >= 10 && givenNumber < 100) {
     return 2;
-  } else {
+  } else if (givenNumber >= 0 && givenNumber < 10) {
     return 1;
+  } else {
+    return 'Berilgan son shartga mos kelmaydi.'
   }
 }
+
+let a = 111;
+
+console.log(numberDigitsDeterminer(a));
