@@ -1,5 +1,5 @@
 let n = 4;
-let givenArray = [2, 4, 6, 4];
+let givenArray = [2, 4, 6, 4, 1, 4];
 let numberOfExistences = 0;
 
 for (let i = 0; i < givenArray.length; i++) {
@@ -8,4 +8,4 @@ for (let i = 0; i < givenArray.length; i++) {
   }
 }
 
-console.log(`Bu yerda ${numberOfExistences} ta ${n} bor`);
+console.log(`Bu yerda ${numberOfExistences} dona ${n} soni bor`);
