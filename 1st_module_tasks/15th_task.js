@@ -1,0 +1,1 @@
+let givenArray = [1, 0, -3, 21, -5];
